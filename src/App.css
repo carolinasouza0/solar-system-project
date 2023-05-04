@@ -1,3 +1,135 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('./images/background.png');
+  color: white;
+  font-family: Epilogue , sans-serif;
+}
+
+header {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  margin: 50px 0 20px;
   text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  margin: 13rem 0 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.planets {
+  display: flex;
+  justify-content: center;
+  margin: 0 20px 100px;
+}
+
+.planet-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.planet-card > div {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.planet-card img {
+  width: 100%;
+}
+
+.planet-card h3 {
+  font-weight: 300;
+}
+
+.mercurio {
+  height: 31px;
+  width: 41px;
+}
+
+.venus {
+  height: 76px;
+  width: 102px;
+}
+
+.terra {
+  height: 79px;
+  width: 106px;
+}
+
+.marte {
+  height: 50px;
+  width: 66px;
+}
+
+.jupiter {
+  height: 204px;
+  width: 272px;
+}
+
+.saturno {
+  height: 210.9px;
+  width: 282.41px;
+}
+
+.urano {
+  height: 109px;
+  width: 144px;
+}
+
+.netuno {
+  height: 107px;
+  width: 144px;
+}
+
+.missions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.mission-card {
+  border: 1px solid white;
+  border-radius: 17px;
+  height: 192px;
+  margin: 20px 30px;
+  padding: 20px;
+  width: 496px;
+}
+
+.mission-card h3 {
+  font-size: 2rem;
+}
+
+.mission-card h4 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.allMissions {
+  background-color: rgba(255, 255, 255, 0.089);
+  border-radius: 30px;
+  margin: 2rem;
 }
