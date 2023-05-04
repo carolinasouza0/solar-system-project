@@ -10,8 +10,8 @@ class Title extends Component {
   }
 }
 
-export default Title;
-
 Title.propTypes = {
   headline: PropTypes.string.isRequired,
 };
+
+export default Title;
