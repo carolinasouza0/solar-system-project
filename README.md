@@ -31,7 +31,7 @@
 <details>
   <summary><strong>💻 Protótipo do projeto no Figma</strong></summary><br />
 
-  [protótipo do Figma](https://www.figma.com/file/V0ShpXzvv8OEi0DlDnXsJq/%5BProjeto%5D%5BFrontend%5D-Solar-System?node-id=2%3A2) para lhe ajudar !
+  Aqui está o [protótipo do Figma](https://www.figma.com/file/V0ShpXzvv8OEi0DlDnXsJq/%5BProjeto%5D%5BFrontend%5D-Solar-System?node-id=2%3A2) que foi utilizado como base nesse projeto!
 
 </details>
 
